@@ -5,7 +5,7 @@
     font-style: normal;
 
 }
-div.container {
+.container {
   display: flex;
   align-items: left;
   justify-content: left;
@@ -31,17 +31,30 @@ div.container {
   font-size: 20px;
   text-align: center;
 }
-/* - Unused, reserved for future use.
-.buttons {
-	
+
+.alt-methods {
+	color: white;
+	text-align: center;
 }
-*/
+
+
+table, td {
+	border: 1px solid red;
+	color: white;
+    text-align: center;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .button1 {
 	font-size: 20px;
 	text-align: center;
 	color: #48A7F0;
 }
-/* Reserved till when I finish up the other sites.
+/*
 .button2 {
 	font-size: 20px;
 	text-align: center;
@@ -54,8 +67,15 @@ div.container {
 	color: #48A7F0;
 }
 */
+.wiki {
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+
 h1 {
 	color: white;
+	text-align: center;
 }
 
 p {
@@ -71,3 +91,8 @@ body {
 img {
   max-width: 100%;
 }
+
+code span { 
+    background-color: green; 
+}
+	
