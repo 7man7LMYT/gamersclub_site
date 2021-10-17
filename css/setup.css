@@ -39,7 +39,7 @@
 
 
 table, td {
-	border: 1px solid red;
+	border: 1px solid #1AD8F4;
 	color: white;
     text-align: center;
 }
@@ -54,7 +54,7 @@ table.center {
 	text-align: center;
 	color: #48A7F0;
 }
-/*
+
 .button2 {
 	font-size: 20px;
 	text-align: center;
@@ -66,7 +66,7 @@ table.center {
 	text-align: center;
 	color: #48A7F0;
 }
-*/
+
 .wiki {
 	font-size: 20px;
 	text-align: center;
@@ -94,5 +94,9 @@ img {
 
 code span { 
     background-color: green; 
+}
+
+a {
+	color: #2CF657;
 }
 	

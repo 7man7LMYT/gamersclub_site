@@ -6,9 +6,9 @@
 
 }
 div.container {
-  display: flex;
-  align-items: left;
-  justify-content: left;
+	display: flex;
+	align-items: left;
+	justify-content: left;
 }
 
 .geyser {
@@ -24,12 +24,13 @@ div.container {
 }
 
 .image {
-  flex-basis: 40%;
+	flex-basis: 40%;
 }
 
 .text {
-  font-size: 20px;
-  text-align: center;
+	font-size: 20px;
+	text-align: center;
+	color: white;
 }
 /* - Unused, reserved for future use.
 .buttons {
@@ -41,7 +42,7 @@ div.container {
 	text-align: center;
 	color: #48A7F0;
 }
-/* Reserved till when I finish up the other sites.
+
 .button2 {
 	font-size: 20px;
 	text-align: center;
@@ -52,10 +53,6 @@ div.container {
 	font-size: 20px;
 	text-align: center;
 	color: #48A7F0;
-}
-*/
-h1 {
-	color: white;
 }
 
 p {
@@ -69,5 +66,9 @@ body {
 }
 
 img {
-  max-width: 100%;
+	max-width: 100%;
+}
+
+a {
+	color: #2CF657;
 }
